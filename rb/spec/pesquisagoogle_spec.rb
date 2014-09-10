@@ -3,10 +3,11 @@ require "selenium-webdriver"
 require "rspec"
 include RSpec::Expectations
 
-##################################################################################
-#Esta é a versão clean do arquivo HTML exportado para o formato da linguagem     #
-#Ruby / Rspec / WebDriver, que é uma das opções padrões do próprio Selenium IDE. #
-##################################################################################
+####################################################################################
+#Esta é a versão clean do arquivo HTML exportado para o formato da linguagem       #
+#Ruby / Rspec / WebDriver, que é uma das opções padrões do próprio Selenium IDE.   #
+#Repare que a parte importante do arquivo gerado pelo Selenium IDE é apenas o "it" #
+####################################################################################
 
 describe "PesquisagoogleSpec" do
 
