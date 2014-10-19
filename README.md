@@ -12,7 +12,7 @@ Abaixo algumas sugestões para quem está engatinhando, saber quais ferramentas 
 - Firefox 31 com a extensão do Selenium na sua última versão (Firefox 32 está com conflito);
 - Um editor de textos: Sublime Text;
 - Configurar sua conta GitHub e sua chave SSH (https://help.github.com/articles/generating-ssh-keys);
-- Instalar o Rbenv (https://github.com/sstephenson/rbenv);
+- Instalar o Rbenv (https://github.com/sstephenson/rbenv#installation);
 - Instalar o Ruby (https://github.com/sstephenson/rbenv#installing-ruby-versions); #instale a versão 2.1.2
 - Definir sua pasta de trabalho: mkdir ~/workspace/
 - Clonar esse repositório na pasta criada: git clone git@github.com:MyPersonalProjects/first-contact.git
