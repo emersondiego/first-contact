@@ -85,8 +85,8 @@ end
 '##########################################################
 "../"nomedoprojeto"/spec/class/seuarquivo.rb"
 '##########################################################
-#coding: utf-8
-#include RSpec::Expectations
+'#coding: utf-8
+'#include RSpec::Expectations
 
 class Cadastro
 
@@ -119,4 +119,5 @@ class Cadastro
   end
   
 end
+
 '##########################################################
