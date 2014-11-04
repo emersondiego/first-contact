@@ -52,72 +52,11 @@ Finalmente conseguimos terminar o 1o Passo, sim, tudo isso ai é só a preparaç
 3o Passo
 ========
 
-Tudo funcionando, está na hora de começar a fazer seu script ficar mais dinâmico e inteligente, transformando-o em um código orientado a objetos, como vc fará isso? Entendendo seu script, crie no arquivo "nome_spec.rb" na parte do "it" chamadas para para métodos que vc deverá criar em outro arquivo, que pode ficar na seguinte estrutura: ../"nomedoprojeto"/spec/class/"nome.rb"
+Tudo funcionando, está na hora de começar a fazer seu script ficar mais dinâmico e inteligente, transformando-o em um código orientado a objetos, como vc fará isso? Entendendo seu script, crie no arquivo "nome_spec.rb" na parte do "it" chamadas para para métodos que vc deverá criar em outro arquivo, que pode ficar na seguinte estrutura: ../nomedoprojeto/spec/class/nome.rb
 
 Dessa forma, teremos então as seguintes pastas:
-- "../"nomedoprojeto"/spec/funcionais"
-- "../"nomedoprojeto"/spec/class"
-Onde teremos, dentro de funcionais, apenas as chamadas para os métodos das suas classes que ficarão dentro a pasta class. Veja um exemplo abaixo:
+- ../"nomedoprojeto"/spec/funcionais
+- ../"nomedoprojeto"/spec/class
 
-'##########################################################
-"../"nomedoprojeto"/spec/funcionais/seuarquivo_spec.rb"
-'##########################################################
-include RSpec::Expectations
+Onde, dentro de funcionais, apenas as chamadas para os métodos das suas classes que ficarão dentro a pasta class. Veja um exemplo abaixo:
 
-describe "Cadastro" do
-
-  before(:each) do
-  end
-
-  after(:each) do
-  end
-
-  it "Cadastrar clientes", :nometag1 => true, :nometag2 => true do
-    @cadastro.abrir_site
-    @cadastro.selecionar_link
-    @cadastro.preencher_dados
-    @cadastro.finalizar_dados
-    @cadastro.validar_msg_sucesso
-    @cadastro.logoff
-  end
-
-end
-'##########################################################
-"../"nomedoprojeto"/spec/class/seuarquivo.rb"
-'##########################################################
-'#coding: utf-8
-'#include RSpec::Expectations
-
-class Cadastro
-
-  def initialize(data)
-    self.driver = data   
-  end
-  
-  def abrir_site
-    codigo
-  end
-  
-  def selecionar_link
-    codigo
-  end
-  
-  def preencher_dados
-    codigo
-  end
-
-  def finalizar_dados
-    codigo
-  end
-
-  def validar_msg_sucesso
-    codigo
-  end
-
-  def logoff
-    codigo
-  end
-  
-end
-
-'##########################################################
