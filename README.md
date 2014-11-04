@@ -59,9 +59,9 @@ Dessa forma, teremos então as seguintes pastas:
 - "../"nomedoprojeto"/spec/class"
 Onde teremos, dentro de funcionais, apenas as chamadas para os métodos das suas classes que ficarão dentro a pasta class. Veja um exemplo abaixo:
 
-##########################################################
+'##########################################################
 "../"nomedoprojeto"/spec/funcionais/seuarquivo_spec.rb"
-##########################################################
+'##########################################################
 include RSpec::Expectations
 
 describe "Cadastro" do
@@ -82,9 +82,9 @@ describe "Cadastro" do
   end
 
 end
-##########################################################
+'##########################################################
 "../"nomedoprojeto"/spec/class/seuarquivo.rb"
-##########################################################
+'##########################################################
 #coding: utf-8
 #include RSpec::Expectations
 
@@ -119,4 +119,4 @@ class Cadastro
   end
   
 end
-##########################################################
+'##########################################################
