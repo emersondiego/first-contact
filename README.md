@@ -53,14 +53,23 @@ Finalmente conseguimos terminar o 1o Passo, sim, tudo isso ai é só a preparaç
 ========
 
 A partir do momento que seu teste começar a funcionar no ruby, vamos começar a aprender a subir seu código para o repositório. Recomendo antes de realizar alteraçoes e/ou novas inclusões, atualizar seus arquivos com o que está no repositório com o comando: $ git pull
+
 Nesse momento ainda não vamos nos preocupar com o uso correto do git que é criando e trabalhando com branchs, é o correto, mas, não é nosso foco aqui, para isso, recomendo os passos básicos do git que podem ser vistos aqui: https://try.github.io
+
 Como estamos fazendo já dentro de uma sub-pasta desse projeto, o git já está monitorando seus arquivos, então, vejamos o que fazer para subir suas alterações, a partir da pasta que criou no 2o Passo, siga os comando abaixo:
+
 $ git status (vai mostrar a branch em que vc está, os arquivos modificados e novos arquivos incluídos com o status untracked)
+
 $ git add . (esse ponto vai adicionar todos os arquivos untracked, tenha certeza de que quer subir todos mesmo, ou use o camando abaixo)
+
 $ git add [caminho_e_nome_do_arquivo] [caminho_e_nome_do_arquivo] [caminho_e_nome_do_arquivo] (para cada arquivo que for subir)
+
 $ git status (agora vai mostrar os arquivos que serão adicionados no seu commit)
+
 $ git commit -m 'Seu texto descrevendo o que está nesse commit, breve e objetivo mas não totalmente genérico' (sim entre aspas simples)
+
 $ git status (agora vai mostrar apenas o que faltou comitar e/ou quantos commits você fez)
+
 $ git push (vai subir o conteúdo do seu commit para o repositório)
 
 Pronto, suas alterações estarão no repositório.
