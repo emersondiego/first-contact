@@ -35,9 +35,11 @@ describe "ResumovendaSpec" do
     @driver.find_element(:xpath, "(//button[@type='submit'])[2]").click
     @driver.find_element(:xpath, "(//button[@type='submit'])[5]").click
     @driver.find_element(:name, "null:username").clear
-    @driver.find_element(:name, "null:username").send_keys "edap.diego@gmail.com"
+    # logo abaixo entre aspas entrar com o email do user 
+    @driver.find_element(:name, "null:username").send_keys "xxxxxx"
     @driver.find_element(:name, "null:password").clear
-    @driver.find_element(:name, "null:password").send_keys "44114973"
+    # logo abaixo entre aspas entrar com a senha do user 
+    @driver.find_element(:name, "null:password").send_keys "xxxxxx"
     @driver.find_element(:id, "btProsseguir").click
   end
   
